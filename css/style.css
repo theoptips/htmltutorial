@@ -1,0 +1,63 @@
+/*sans-serif is the backup font*/
+/*background #420600 as backup to image*/
+
+body {
+	font-family: 'Nunito',sans-serif;
+	color: #FAF3BC ;
+	background: #420600 url('img/bg-texture.jpg') repeat;
+}
+
+
+/*style all links*/
+a {
+	color: #4FB69F;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.750em;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 1.500em;
+	color: #B4C34F;
+}
+
+.btn {
+	color: #FAF3BC;
+	background: #4FB69F url('img/texture.png') no-repeat right top;
+	padding: 15px 30px;
+	margin: 40px;
+	border-radius: 25px;
+	text-transform: uppercase;
+}
+
+/*btn:hover is a pseudo class;*/
+
+.btn:hover {
+	background-color: #4CC4A7 ;
+}
+
+ul.nav {
+	margin: 120px 0 0 0;
+	/*list none to remove bullets*/
+	list-style: none;
+	float: right;
+
+}
+
+
+/*select all list items inside nav list*/
+ul.nav li {
+	/*prevent items from going to new line*/
+	float: left;
+	/*put space between items*/
+	margin-right: 40px;
+
+}
+
+/*format links within nav*/
+ul.nav li a {
+	color: #FAF3BC;
+}
